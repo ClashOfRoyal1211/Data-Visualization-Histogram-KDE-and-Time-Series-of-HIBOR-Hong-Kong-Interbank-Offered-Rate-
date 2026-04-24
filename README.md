@@ -16,4 +16,20 @@ Explanation on what each file of program does:
   "combined_plot.py" : 
     Combined the data generated from "cppProcessData" and "json_parser", and generated an image containing a intrest rate vs time series graph, and well as a histogram overlaid onto a Kernel Density Estimation (KDE) graph displaying frequency against the 3-month interest rate(%)
 
-  
+What does the graph say?
+
+Time-Series Graph #1
+
+  Horizontal X-axis: Time
+
+  Vertial Y-axis: Interest Rate (% per Annum)
+
+Histogram and KDE Graph #2
+
+  Horizontal X-axis: Interest Rate (% per Annum).
+
+  Vertical Y-axis: Frequency / Density
+    *How many times did this rate show up 
+    *The taller the bars, the more frequently that specific interest rate occurred in the dataset.
+    *Because the tallest "hump" is between 0 and 2, it tells you that a 1% interest rate is much more common than a 9% interest rate.
+    
